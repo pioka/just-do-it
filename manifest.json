@@ -1,18 +1,18 @@
 {
-	"manifest_version": 2,
-	"name": "Just Do It",
-	"version": "0.2",
-	"content_scripts": [
-		{
-			"matches": [
-				"https://twitter.com/*",
-				"https://tweetdeck.twitter.com/*",
+  "manifest_version": 2,
+  "name": "Just Do It",
+  "version": "0.2",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*",
+        "https://tweetdeck.twitter.com/*",
         "https://www.youtube.com/*",
-				"https://www.twitch.tv/*",
-				"https://www.nicovideo.jp/*"
+        "https://www.twitch.tv/*",
+        "https://www.nicovideo.jp/*"
       ],
-			"js": ["main.js"],
-			"run_at": "document_start"
-		}
-	]
+      "js": ["main.js"],
+      "run_at": "document_start"
+    }
+  ]
 }
